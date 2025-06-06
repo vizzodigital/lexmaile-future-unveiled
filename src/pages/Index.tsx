@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { ArrowRight, Download, Book, File, Play, Folder, Scale, Shield, Lightbulb, Eye, Zap, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -58,10 +59,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-lexmaile-black text-white overflow-x-hidden font-inter">
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen flex items-center justify-center relative">
-        {/* Sophisticated background texture */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,57,80,0.03)_25%,rgba(255,57,80,0.03)_50%,transparent_50%,transparent_75%,rgba(187,42,255,0.03)_75%)] bg-[length:120px_120px]"></div>
+      <section 
+        id="hero" 
+        className="min-h-screen flex items-center justify-center relative"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/lovable-uploads/72b62ff4-ab5f-419f-b3a2-b021c52d2661.png')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        {/* Sophisticated background overlay */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,57,80,0.05)_25%,rgba(255,57,80,0.05)_50%,transparent_50%,transparent_75%,rgba(187,42,255,0.05)_75%)] bg-[length:120px_120px]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(255,57,80,0.1)_0%,transparent_50%)]"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(187,42,255,0.1)_0%,transparent_50%)]"></div>
         </div>
@@ -98,7 +108,16 @@ const Index = () => {
       </section>
 
       {/* Video Manifesto Section */}
-      <section id="manifesto" className="py-32 relative scroll-reveal">
+      <section 
+        id="manifesto" 
+        className="py-32 relative scroll-reveal"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/lovable-uploads/photo-1518770660439-4636190af475.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-6xl md:text-7xl font-black mb-8">
@@ -129,7 +148,16 @@ const Index = () => {
       </section>
 
       {/* Brand Pillars Section */}
-      <section id="pillars" className="py-32 relative scroll-reveal">
+      <section 
+        id="pillars" 
+        className="py-32 relative scroll-reveal"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/lovable-uploads/photo-1531297484001-80022131f5a1.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="container mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-6xl md:text-7xl font-black mb-8">
@@ -170,7 +198,16 @@ const Index = () => {
       </section>
 
       {/* Brandbook Interactive Section */}
-      <section id="brandbook" className="py-32 relative scroll-reveal">
+      <section 
+        id="brandbook" 
+        className="py-32 relative scroll-reveal"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/lovable-uploads/photo-1487058792275-0ad4aaf24ca7.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-6xl md:text-7xl font-black mb-8">
@@ -210,7 +247,16 @@ const Index = () => {
       </section>
 
       {/* Strategic Documents Section */}
-      <section id="documents" className="py-32 relative scroll-reveal">
+      <section 
+        id="documents" 
+        className="py-32 relative scroll-reveal"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/lovable-uploads/photo-1483058712412-4245e9b90334.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundAttachment: 'fixed'
+        }}
+      >
         <div className="container mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-6xl md:text-7xl font-black mb-8">
@@ -249,7 +295,15 @@ const Index = () => {
       </section>
 
       {/* Footer Section */}
-      <section id="footer" className="py-32 relative scroll-reveal">
+      <section 
+        id="footer" 
+        className="py-32 relative scroll-reveal"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), url('/lovable-uploads/photo-1439337153520-7082a56a81f4.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-5xl md:text-6xl font-black mb-12 bg-gradient-to-r from-[#FF3950] via-[#FF6B7A] to-[#BB2AFF] bg-clip-text text-transparent leading-tight">
             Obrigado por confiar na construção da sua nova história.
