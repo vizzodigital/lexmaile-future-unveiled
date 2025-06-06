@@ -63,7 +63,7 @@ const Index = () => {
         id="hero" 
         className="min-h-screen flex items-center justify-center relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/lovable-uploads/72b62ff4-ab5f-419f-b3a2-b021c52d2661.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/lovable-uploads/b8b52223-eaab-47ea-9011-1f2c83e6934a.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -112,7 +112,7 @@ const Index = () => {
         id="manifesto" 
         className="py-32 relative scroll-reveal"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/lovable-uploads/photo-1518770660439-4636190af475.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/lovable-uploads/bcdf13f2-bd40-4736-9cb5-1f29b99feeaf.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -152,7 +152,7 @@ const Index = () => {
         id="pillars" 
         className="py-32 relative scroll-reveal"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/lovable-uploads/photo-1531297484001-80022131f5a1.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/lovable-uploads/b8b52223-eaab-47ea-9011-1f2c83e6934a.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -202,7 +202,7 @@ const Index = () => {
         id="brandbook" 
         className="py-32 relative scroll-reveal"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/lovable-uploads/photo-1487058792275-0ad4aaf24ca7.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('/lovable-uploads/bcdf13f2-bd40-4736-9cb5-1f29b99feeaf.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -251,7 +251,7 @@ const Index = () => {
         id="documents" 
         className="py-32 relative scroll-reveal"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/lovable-uploads/photo-1483058712412-4245e9b90334.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/lovable-uploads/b8b52223-eaab-47ea-9011-1f2c83e6934a.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -299,7 +299,7 @@ const Index = () => {
         id="footer" 
         className="py-32 relative scroll-reveal"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), url('/lovable-uploads/photo-1439337153520-7082a56a81f4.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.95)), url('/lovable-uploads/bcdf13f2-bd40-4736-9cb5-1f29b99feeaf.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
