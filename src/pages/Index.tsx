@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { ArrowRight, Download, Book, File, Play, Folder, Scale, Shield, Lightbulb, Eye, Zap, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -70,7 +69,7 @@ const Index = () => {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="mb-12 animate-fade-in">
             <img 
-              src="/lovable-uploads/72b62ff4-ab5f-419f-b3a2-b021c52d2661.png" 
+              src="/lovable-uploads/2134f4c2-80d5-4d82-9158-06de79f69b18.png" 
               alt="LexMaile Logo" 
               className="h-32 mx-auto mb-8 animate-pulse drop-shadow-2xl"
               style={{ filter: 'drop-shadow(0 0 30px rgba(255, 57, 80, 0.3))' }}
