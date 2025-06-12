@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/lexmaile-future-unveiled/", // <-- Adicione esta linha
+  base: "/lexmaile-future-unveiled/",
   server: {
     host: "::",
     port: 8080,
