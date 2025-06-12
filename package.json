@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rofrtd.github.io/lexmaile-future-unveiled",
+  "homepage": "https://vizzodigital.github.io/lexmaile-future-unveiled",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
