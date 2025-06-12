@@ -73,7 +73,7 @@ const Index = () => {
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="w-full flex justify-center mt-12 md:mt-0 mb-20">
             <img
-              src="/lovable-uploads/logo.png"
+              src={`${import.meta.env.BASE_URL}lovable-uploads/logo.png`}
               alt="LexMaile Logo"
               className="max-h-[160px] w-auto max-w-[80%] object-contain"
             />
