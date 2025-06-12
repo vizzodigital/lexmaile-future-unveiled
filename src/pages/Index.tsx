@@ -63,7 +63,7 @@ const Index = () => {
         className="min-h-screen flex items-center justify-center relative"
         style={{
           backgroundPosition: "center",
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url('/lovable-uploads/texture.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url('/lovable-uploads/textura-ampulheta.jpg')`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
@@ -106,7 +106,7 @@ const Index = () => {
         id="manifesto"
         className="py-10 relative scroll-reveal"
         style={{
-          backgroundImage: `url('/lovable-uploads/texture.png')`,
+          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -133,11 +133,15 @@ const Index = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#FF3950] via-[#BB2AFF] to-[#6F1E51] p-1">
                 <div className="w-full h-full bg-lexmaile-black rounded-2xl flex items-center justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#FF3950]/10 to-[#BB2AFF]/10"></div>
-                  <Button className="bg-transparent border-2 border-[#FF3950] text-[#FF3950] hover:bg-[#FF3950] hover:text-white px-16 py-8 text-xl rounded-full transition-all duration-300 hover:scale-110 z-10 shadow-lg hover:shadow-[0_0_30px_rgba(255,57,80,0.4)]">
-                    <Play className="mr-4 h-8 w-8" fill="currentColor" />
-                    Assistir ao manifesto
-                  </Button>
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/sLicYsdodPo?si=d5_qXmWPyxGM7rOz"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
                 </div>
               </div>
             </div>
@@ -150,7 +154,7 @@ const Index = () => {
         id="brandbook"
         className="py-32 relative scroll-reveal"
         style={{
-          backgroundImage: `url('/lovable-uploads/texture.png')`,
+          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -183,7 +187,7 @@ const Index = () => {
         className="py-5 relative scroll-reveal"
         style={{
           backgroundPosition: "center",
-          backgroundImage: `url('/lovable-uploads/texture.png')`,
+          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
@@ -234,7 +238,7 @@ const Index = () => {
         className="py-10 relative scroll-reveal"
         style={{
           backgroundPosition: "center",
-          backgroundImage: `url('/lovable-uploads/texture.png')`,
+          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
