@@ -257,12 +257,19 @@ const Index = () => {
           backgroundAttachment: "fixed",
         }}
       >
-        <div className="container mx-auto px-3 text-center">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-black mb-12 bg-gradient-to-r from-[#FF3950] via-[#FF6B7A] to-[#BB2AFF] bg-clip-text text-transparent leading-tight">
-            Obrigado por confiar na construção da sua nova história.
-          </h2>
-
-          <div className="mt-20 pt-12 border-t border-gray-800">
+        <div className="w-full flex justify-center mt-12 md:mt-0">
+          <img
+            src={`${import.meta.env.BASE_URL}lovable-uploads/logo-simples.png`}
+            alt="LexMaile Logo"
+            className="w-full max-w-[600px] object-contain"
+          />
+        </div>
+        <div className="container mx-auto px-1 text-center">
+          <p className="text-xl md:text-3xl lg:text-4xl font-black mb-12 text-lexmaile-gray font-medium mb-4">
+            Obrigado por confiar na nova etapa da sua nova {}
+            <span className="text-[#FF3950] font-bold">história.</span>
+          </p>
+          <div className="mt-10 pt-12 border-t border-gray-800">
             <p className="text-xl text-lexmaile-gray font-medium mb-4">
               Desenvolvido por{" "}
               <span className="text-[#FF3950] font-bold">Vizzo Digital</span>
