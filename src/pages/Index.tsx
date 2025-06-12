@@ -266,7 +266,7 @@ const Index = () => {
         </div>
         <div className="container mx-auto px-1 text-center">
           <p className="text-xl md:text-3xl lg:text-4xl font-black mb-12 text-lexmaile-gray font-medium mb-4">
-            Obrigado por confiar na nova etapa da sua nova {}
+            Obrigado por confiar na nova etapa da sua {}
             <span className="text-[#FF3950] font-bold">história.</span>
           </p>
           <div className="mt-10 pt-12 border-t border-gray-800">
