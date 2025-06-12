@@ -108,7 +108,9 @@ const Index = () => {
         id="manifesto"
         className="py-10 relative scroll-reveal"
         style={{
-          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(${
+            import.meta.env.BASE_URL
+          }lovable-uploads/texture.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -156,7 +158,9 @@ const Index = () => {
         id="brandbook"
         className="py-32 relative scroll-reveal"
         style={{
-          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(${
+            import.meta.env.BASE_URL
+          }lovable-uploads/texture.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
@@ -176,7 +180,11 @@ const Index = () => {
           <div className="max-w-6xl mx-auto">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl mb-12 bg-transparent p-1">
               <div className="w-full h-full bg-transparent rounded-2xl relative z-10">
-                <PdfFlipViewer fileUrl="/lovable-uploads/brandbook.pdf" />
+                <PdfFlipViewer
+                  fileUrl={`${
+                    import.meta.env.BASE_URL
+                  }lovable-uploads/brandbook.pdf`}
+                />
               </div>
             </div>
           </div>
@@ -189,7 +197,9 @@ const Index = () => {
         className="py-5 relative scroll-reveal"
         style={{
           backgroundPosition: "center",
-          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(${
+            import.meta.env.BASE_URL
+          }lovable-uploads/texture.png)`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
@@ -240,7 +250,9 @@ const Index = () => {
         className="py-10 relative scroll-reveal"
         style={{
           backgroundPosition: "center",
-          backgroundImage: `url('/lovable-uploads/textura-ampulheta.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(${
+            import.meta.env.BASE_URL
+          }lovable-uploads/texture.png)`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
