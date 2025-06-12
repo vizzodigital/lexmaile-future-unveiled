@@ -63,7 +63,9 @@ const Index = () => {
         className="min-h-screen flex items-center justify-center relative"
         style={{
           backgroundPosition: "center",
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url('/lovable-uploads/texture.png')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url('${
+            import.meta.env.BASE_URL
+          }lovable-uploads/texture.png')`,
           backgroundSize: "cover",
           backgroundAttachment: "fixed",
         }}
